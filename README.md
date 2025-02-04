@@ -34,7 +34,7 @@ All rights reserved. This project is for personal portfolio and demonstration pu
 Disclaimer
 ===
 
-This repository is for personal portfolio and educational purposes only. It does not represent an official product or service of CoreX Studio. The original work remains the intellectual property of [Organization Name], and any use of this project must comply with their terms and conditions.
+This repository is for personal portfolio and educational purposes only. It does not represent an official product or service of CoreX Studio. The original work remains the intellectual property of CoreX Studio, and any use of this project must comply with their terms and conditions.
 
 Contact
 ===
