@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --highlight-subheader: #bab190;
+  --highlight-header: #be9d5d;
+  --primary-text: #ffffff;
+  --section-bg: #131313;
+  --primary-coating: #000000;
+  --primary-font: "Lato", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+/* BANNER SECTION */
+.BAN_CONTENT {
+  position: relative;
+}
+.BAN_SWIPER {
+  background-color: var(--section-bg);
+}
+.BOX_SLIDE {
+  position: relative;
+  height: 675px;
+}
+.BOX_SLIDE_CONTENT {
+  position: absolute;
+  right: 306px;
+  bottom: 148px;
+  width: 100%;
+  max-width: 558px;
+}
+
+.BOX_SLIDE_CONTENT img {
+  margin-bottom: 30px;
+}
+
+.BOX_SLIDE_CONTENT h1,
+.BOX_SLIDE_CONTENT h2 {
+  color: var(--highlight-subheader);
+}
+.BOX_SLIDE_CONTENT h1 {
+  font-size: 28px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.BOX_SLIDE_CONTENT h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.BOX_SLIDE_CONTENT .BOX_SLIDE_CONTENT-span {
+  color: var(--highlight-header);
+  font-size: 40px;
+  display: block;
+}
+
+/* END OF BANNER SECTION */
