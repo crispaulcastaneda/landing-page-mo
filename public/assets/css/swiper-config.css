@@ -1,0 +1,16 @@
+/* BANNER SECTION */
+.BG_MAIN {
+  background: url("../images/banner/mo-banner-1.webp") no-repeat center;
+}
+.BG_SECONDARY {
+  background: url("../images/banner/mo-banner-2.webp") no-repeat center;
+}
+
+@media (max-width: 767px) {
+  .BG_MAIN {
+    background: url("../images/banner/mo-banner-1-mobi.webp") no-repeat;
+  }
+  .BG_SECONDARY {
+    background: url("../images/banner/mo-banner-2-mobi.webp") no-repeat;
+  }
+}
