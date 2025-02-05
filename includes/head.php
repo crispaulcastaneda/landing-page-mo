@@ -1,6 +1,4 @@
-<?php
-include "contents/content.php"
-  ?>
+<?php include_once "contents/content.php" ?>
 <!DOCTYPE html>
 <html lang="<?php echo $language; ?>">
 
@@ -9,21 +7,19 @@ include "contents/content.php"
   <?php
   $url = $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
   $config = [
-    'localhost/public/index.php' => [
-      'GA_CODE' => 'G-8XDGXSWV4L',
-    ]
+    'localhost/public/index.php' => ['GA_CODE' => 'G-8XDGXSWV4L'],
+    'clientbeta.tech/public/index.php' => ['GA_CODE' => 'G-8XDGXSWV4L']
   ];
   ?>
 
   <!-- GOOGLE TAG MANAGER -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $config[$url]['GA_CODE']; ?>"></script>
   <script>
-    window.datalayer = window.datalayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      datalayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
+
     gtag('config', '<?php echo $config[$url]['GA_CODE']; ?>');
   </script>
 
@@ -39,6 +35,7 @@ include "contents/content.php"
 
   <link rel="stylesheet" href="../public/assets/css/swiper-config.css">
   <link rel="stylesheet" href="../public/assets/css/style.css">
+  <link rel="stylesheet" href="../public/assets/css/media.css">
 </head>
 
 <body>

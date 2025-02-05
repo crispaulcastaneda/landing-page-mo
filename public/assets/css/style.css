@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
@@ -5,6 +12,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -14,11 +22,18 @@
   --primary-text: #ffffff;
   --section-bg: #131313;
   --primary-coating: #000000;
+  --primary-hover: #d0bf9f;
   --primary-font: "Lato", sans-serif;
 }
 
 body {
   font-family: var(--primary-font);
+  cursor: url("../images/icons/ace-of-spades.png"), 16 16, pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text);
 }
 
 /* BANNER SECTION */
@@ -30,13 +45,15 @@ body {
 }
 .BOX_SLIDE {
   position: relative;
-  height: 675px;
+  background-size: contain;
+  height: 100%;
+  padding-bottom: 40%;
 }
 .BOX_SLIDE_CONTENT {
   position: absolute;
-  right: 306px;
-  bottom: 148px;
-  width: 100%;
+  right: 15vw;
+  bottom: 25%;
+  width: 90%;
   max-width: 558px;
 }
 
@@ -44,9 +61,17 @@ body {
   margin-bottom: 30px;
 }
 
+.BG_SECONDARY .BOX_SLIDE_CONTENT img {
+  display: block;
+  max-width: 280px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
 .BOX_SLIDE_CONTENT h1,
 .BOX_SLIDE_CONTENT h2 {
   color: var(--highlight-subheader);
+  text-transform: uppercase;
 }
 .BOX_SLIDE_CONTENT h1 {
   font-size: 28px;
@@ -63,4 +88,40 @@ body {
   display: block;
 }
 
+.BOX_SLIDE_CONTENT p {
+  color: var(--primary-text);
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.BOX_SLIDE_CONTENT .BOX_SLIDE_CONTENT-LINKS.LINKS_CENTER {
+  text-align: center;
+}
+.BOX_SLIDE_CONTENT .BOX_SLIDE_CONTENT-LINKS .BTN_BOX {
+  margin: 8px;
+}
+/* BANNER LINKS UI */
+.BOX_SLIDE_CONTENT-LINKS .BTN_BOX {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 9px 59px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.BOX_SLIDE_CONTENT-LINKS .PRIMARY_BTN,
+.BOX_SLIDE_CONTENT-LINKS .SECONDARY_BTN {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.BOX_SLIDE_CONTENT-LINKS .PRIMARY_BTN {
+  outline: 1px solid var(--primary-text);
+}
+.BOX_SLIDE_CONTENT-LINKS .SECONDARY_BTN {
+  color: var(--primary-coating);
+  background-color: var(--highlight-header);
+}
 /* END OF BANNER SECTION */
