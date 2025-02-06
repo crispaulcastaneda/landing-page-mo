@@ -9,6 +9,9 @@
   /* BANNER
     * UI
   */
+  .BTN__GOLD-MAIN:hover {
+    background-color: var(--primary-hover);
+  }
   .BOX_SLIDE_CONTENT-LINKS .BTN_BOX:hover {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -21,6 +24,35 @@
     outline: none;
     background-color: var(--primary-text);
     color: var(--primary-coating);
+  }
+  /* HOVER EFFECT */
+  .MCCARD__SLIDE:hover {
+    transform: scale(1.02);
+  }
+  /* MC TILES SECTION */
+  .MCTILES__SLIDE:hover .TILE__HOLDER {
+    filter: blur(3px) brightness(0.6); /* Blur and dim effect */
+  }
+  /* FADE IN OVERLAY */
+  .MCTILES__SLIDE:hover .MCTILE__SLIDE__CONTENT-OVERLAY {
+    opacity: 1;
+  }
+  /* SLIDE UP ANIMATION */
+  .MCTILES__SLIDE:hover .MCTILE__SLIDE__CONTENT-OVERLAY a {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1400px) {
+  .MC__CONTENT {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .MC__CONTENT {
+    margin-top: -70px;
   }
 }
 
@@ -46,6 +78,11 @@
     max-width: 30vw;
   }
   .BOX_SLIDE_CONTENT p {
+    font-size: 1.324vw;
+  }
+
+  /* MC SECTION */
+  .MC__CONTENT-ABOUT p {
     font-size: 1.324vw;
   }
 }
@@ -75,6 +112,43 @@
   .BOX_SLIDE_CONTENT .BOX_SLIDE_CONTENT-LINKS .BTN_BOX {
     margin: 0px;
   }
+
+  /* MC SECTION */
+  .MC__CONTENT {
+    margin-top: unset;
+    clip-path: unset;
+    background-size: 130%;
+  }
+  .MC__CONTENT-LOGO img {
+    margin-top: 100px;
+    max-width: 161px;
+  }
+  .MCCARD__SLIDE {
+    width: 100%;
+    max-width: 487px;
+  }
+  .MCCARD1,
+  .MCCARD2,
+  .MCCARD3 {
+    background-size: contain;
+  }
+  .MC__CONTENT-ABOUT p {
+    font-size: 18px;
+  }
+  .MC__CONTENT-ABOUT p:before,
+  .MC__CONTENT-ABOUT p:after {
+    background-size: 48px 48px;
+    width: 48px;
+    height: 48px;
+  }
+  .MC__CONTENT-ABOUT p:before {
+    left: 0;
+    top: -50px;
+  }
+  .MC__CONTENT-ABOUT p:after {
+    right: 0;
+    bottom: -50px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -90,6 +164,11 @@
 }
 
 @media (max-width: 767px) {
+  .BTN__GOLD-MAIN {
+    padding: 9px 35px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
   .BOX_SLIDE {
     padding-bottom: 47%;
   }
@@ -124,9 +203,29 @@
   .BG_SECONDARY .BOX_SLIDE_CONTENT .BOX_SLIDE_CONTENT-LINKS .BTN_BOX {
     margin: 0 auto;
   }
+
+  /* MC TILES */
+  .MC__CONTENT-LOGO img {
+    margin-top: 80px;
+    max-width: 146px;
+  }
+  .MCCARD__SLIDE {
+    max-width: 360px;
+    width: 100%;
+  }
+
+  .MC__CONTENT-ABOUT p {
+    max-width: 624px;
+    line-height: 24px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 559px) {
+  .BTN__GOLD-MAIN {
+    padding: 9px 24px;
+    font-size: 12px;
+  }
   .BOX_SLIDE {
     padding-bottom: 48%;
   }
@@ -151,6 +250,11 @@
   .BG_SECONDARY .BOX_SLIDE_CONTENT img {
     max-width: 180px;
     margin-bottom: 24px;
+  }
+
+  /* MC TILES */
+  .MC__CONTENT-ABOUT p {
+    max-width: 284px;
   }
 }
 
