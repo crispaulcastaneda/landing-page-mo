@@ -3,6 +3,7 @@
 <main>
 
   <?php include_once '../includes/content-banner.php' ?>
+  <?php include_once '../includes/content-mc.php' ?>
 
 </main>
 
