@@ -2,7 +2,7 @@
 $language = "en-US";
 $title = "Project | Maria Ozawa Microsite";
 
-$HEADER1 = "Lorem ipsum dolor sit amet";
+$HEADER1 = "Lorem ipsum dolor sit";
 $HEADER2 = "Excepteur sint occaecat";
 $SUBHEADER = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore";
 $HEADER3 = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis harum.";
@@ -11,7 +11,10 @@ $ALT_MBAN1 = "MO-BANNER-MAIN";
 $MBAN2 = "assets/images/icons/mr-logo-big.svg";
 $ALT_MBAN2 = "MO-BANNER-SECONDARY";
 
-$BANNERLINK1 = "Play Video";
-$BANNERLINK2 = "Join Now";
-$BANNERLINK3 = "PLAY NOW";
+$BANNERLINKTXT1 = "Play Video";
+$BANNER1LINKURL = "#";
+$BANNERLINKTXT2 = "Join Now";
+$BANNER1LINKURLPLAY = "#";
+$BANNERLINKTXT3 = "PLAY NOW";
+$BANNER2LINKURL = "#";
 ?>
