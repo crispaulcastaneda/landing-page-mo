@@ -28,12 +28,13 @@
 
 body {
   font-family: var(--primary-font);
-  cursor: url("../images/icons/ace-of-spades.png"), 16 16, pointer;
 }
 
-a {
+a,
+button {
   text-decoration: none;
   color: var(--primary-text);
+  white-space: nowrap;
 }
 
 /* BANNER SECTION */
