@@ -8,24 +8,32 @@
         <div class="swiper-wrapper MCSWIPER-WRAPPER">
           <div class="swiper-slide MCCARD__SLIDE MCCARD1">
             <div class="MCCARD__SLIDE-CONTENT">
-              <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
-              <a class="BTN__GOLD-MAIN" href="<?php echo $MCCARDURL1 ?>"><?php echo $MCCARDTXT1 ?></a>
+              <img class="CARD__IMG" src="<?php echo $MCCARDTILE1 ?>" alt="">
+              <div class="MCCARD__SLIDE__CONTENT-THUMB">
+                <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
+                <a class="BTN__GOLD__CARD" href="<?php echo $MCCARDURL1 ?>"><?php echo $MCCARDTXT1 ?></a>
+              </div>
             </div>
           </div>
           <div class="swiper-slide MCCARD__SLIDE MCCARD2">
             <div class="MCCARD__SLIDE-CONTENT">
-              <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
-              <a class="BTN__GOLD-MAIN" href="<?php echo $MCCARDURL2 ?>"><?php echo $MCCARDTXT2 ?></a>
+              <img class="CARD__IMG" src="<?php echo $MCCARDTILE2 ?>" alt="">
+              <div class="MCCARD__SLIDE__CONTENT-THUMB">
+                <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
+                <a class="BTN__GOLD__CARD" href="<?php echo $MCCARDURL2 ?>"><?php echo $MCCARDTXT2 ?></a>
+              </div>
             </div>
           </div>
           <div class="swiper-slide MCCARD__SLIDE MCCARD3">
             <div class="MCCARD__SLIDE-CONTENT">
-              <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
-              <a class="BTN__GOLD-MAIN" href="<?php echo $MCCARDURL3 ?>"><?php echo $MCCARDTXT3 ?></a>
+              <img class="CARD__IMG" src="<?php echo $MCCARDTILE3 ?>" alt="">
+              <div class="MCCARD__SLIDE__CONTENT-THUMB">
+                <img src="<?php echo $MCCARDSTARFULL ?>" alt="<?php echo $MCCARDSTARFULLTXT ?>">
+                <a class="BTN__GOLD__CARD" href="<?php echo $MCCARDURL3 ?>"><?php echo $MCCARDTXT3 ?></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
     </div>
     <div class="MC__CONTENT-ABOUT">
