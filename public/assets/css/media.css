@@ -9,7 +9,8 @@
   /* BANNER
     * UI
   */
-  .BTN__GOLD-MAIN:hover {
+  .BTN__GOLD-MAIN:hover,
+  .BTN__GOLD__CARD:hover {
     background-color: var(--primary-hover);
   }
   .BOX_SLIDE_CONTENT-LINKS .BTN_BOX:hover {
@@ -28,6 +29,7 @@
   /* HOVER EFFECT */
   /* MC TILES SECTION */
   .MCTILES__SLIDE:hover .TILE__HOLDER {
+    -webkit-filter: blur(3px) brightness(0.6);
     filter: blur(3px) brightness(0.6); /* Blur and dim effect */
   }
   /* FADE IN OVERLAY */
@@ -36,8 +38,16 @@
   }
   /* SLIDE UP ANIMATION */
   .MCTILES__SLIDE:hover .MCTILE__SLIDE__CONTENT-OVERLAY a {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+  }
+
+  .MCCARD__SLIDE:hover .MCCARD__SLIDE-CONTENT {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
   }
 }
 
@@ -113,6 +123,7 @@
   /* MC SECTION */
   .MC__CONTENT {
     margin-top: unset;
+    -webkit-clip-path: unset;
     clip-path: unset;
     background-size: 130%;
   }
