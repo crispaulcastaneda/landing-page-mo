@@ -49,6 +49,11 @@
     -ms-transform: scale(1.02);
     transform: scale(1.02);
   }
+
+  /* WB */
+  .WB__FLEX__ITEM-LINKS .WB__BTN:hover {
+    background-color: var(--primary-hover);
+  }
 }
 
 @media (max-width: 1400px) {

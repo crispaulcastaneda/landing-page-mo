@@ -4,6 +4,8 @@
 
   <?php include_once '../includes/content-banner.php' ?>
   <?php include_once '../includes/content-mc.php' ?>
+  <?php include_once '../includes/content-wb.php' ?>
+
 
 </main>
 
