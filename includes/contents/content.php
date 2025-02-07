@@ -1,9 +1,8 @@
-<!-- HEAD -->
 <?php
 $language = "en-US";
 $title = "Project | Maria Ozawa Microsite";
 ?>
-<!-- BANNER -->
+
 <?php
 $HEADER1 = "Lorem ipsum dolor sit";
 $HEADER2 = "Excepteur sint occaecat";
@@ -21,7 +20,7 @@ $BANNER1LINKURLPLAY = "#";
 $BANNERLINKTXT3 = "PLAY NOW";
 $BANNER2LINKURL = "#";
 ?>
-<!-- MC CONTENT -->
+
 <?php
 $MCLOGO = "assets/images/icons/02-mc-logo.svg";
 $MCLOGOALT = "Maria's Choice";
@@ -50,4 +49,23 @@ $TILEIMGALT = "TILE IMAGE";
 $MCTILEURL = "#";
 $GAMENAME = "GAME NAME";
 $RATESTAR = "assets/images/misc/02-mc-tile-star.png";
+?>
+
+<?php
+$WBPIC1 = "assets/images/pic/03-mo-wb-pic1.png";
+$WBALT1 = "WB-MO-PIC1";
+$WBPIC2 = "assets/images/pic/03-mo-wb-pic2.png";
+$WBALT2 = "WB-MO-PIC2";
+
+$WBTXT1 = "Lorem ipsum dolor sit amet, consectetur adipiscing";
+$WBTXT2 = "Duis aute irure dolor *";
+$WBTXT3 = "esse cillum dolore";
+$WBTXT4 = "Lorem ipsum dolor sit amet";
+$WBTXT5 = "cupidatat non proident";
+
+$WBLINK1 = "#";
+$WBLINKTXT1 = "JOIN NOW";
+
+$WBSPANLINK1 = "#";
+$WBSPAN1 = "* sunt in culpa qui";
 ?>
