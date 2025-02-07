@@ -26,9 +26,6 @@
     color: var(--primary-coating);
   }
   /* HOVER EFFECT */
-  .MCCARD__SLIDE:hover {
-    transform: scale(1.02);
-  }
   /* MC TILES SECTION */
   .MCTILES__SLIDE:hover .TILE__HOLDER {
     filter: blur(3px) brightness(0.6); /* Blur and dim effect */
@@ -52,7 +49,7 @@
 
 @media (max-width: 1360px) {
   .MC__CONTENT {
-    margin-top: -70px;
+    margin-top: -60px;
   }
 }
 
@@ -123,15 +120,7 @@
     margin-top: 100px;
     max-width: 161px;
   }
-  .MCCARD__SLIDE {
-    width: 100%;
-    max-width: 487px;
-  }
-  .MCCARD1,
-  .MCCARD2,
-  .MCCARD3 {
-    background-size: contain;
-  }
+
   .MC__CONTENT-ABOUT p {
     font-size: 18px;
   }
@@ -149,6 +138,9 @@
     right: 0;
     bottom: -50px;
   }
+  .MCCARD__SLIDE__CONTENT-THUMB {
+    bottom: -16%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -164,6 +156,9 @@
 }
 
 @media (max-width: 767px) {
+  .MO__INNER {
+    padding: 0 8px;
+  }
   .BTN__GOLD-MAIN {
     padding: 9px 35px;
     border-radius: 4px;
@@ -205,19 +200,30 @@
   }
 
   /* MC TILES */
+  .MC__CONTENT-CARDS {
+    overflow-x: hidden;
+  }
+  .MC__CONTENT-CARDS .MCSWIPER {
+    width: 100%;
+    overflow: visible;
+  }
   .MC__CONTENT-LOGO img {
     margin-top: 80px;
     max-width: 146px;
   }
-  .MCCARD__SLIDE {
-    max-width: 360px;
-    width: 100%;
+  .MCCARD__SLIDE__CONTENT-THUMB {
+    display: none;
   }
-
   .MC__CONTENT-ABOUT p {
     max-width: 624px;
     line-height: 24px;
     font-size: 14px;
+  }
+  .MCTILES__SLIDE {
+    max-width: 248px;
+  }
+  .MCTILE__SLIDE__CONTENT-BOTTOM p {
+    font-size: 12px;
   }
 }
 
@@ -254,7 +260,16 @@
 
   /* MC TILES */
   .MC__CONTENT-ABOUT p {
-    max-width: 284px;
+    max-width: 375px;
+  }
+  .MCTILES__SLIDE {
+    max-width: 167px;
+  }
+  .MCTILE__SLIDE__CONTENT-BOTTOM p {
+    font-size: 10px;
+  }
+  .MCTILE__SLIDE__CONTENT-BOTTOM img {
+    display: none;
   }
 }
 

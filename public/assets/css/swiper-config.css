@@ -6,45 +6,6 @@
   background: url("../images/banner/mo-banner-2.webp") no-repeat center;
 }
 
-/* MC SECTION */
-.MCSWIPER {
-  max-width: 1340px;
-}
-.MCCARD1 {
-  background: url("../images/card/02-mc-card-1.webp") no-repeat;
-}
-.MCCARD2 {
-  background: url("../images/card/02-mc-card-2.webp") no-repeat;
-}
-.MCCARD3 {
-  background: url("../images/card/02-mc-card-3.webp") no-repeat;
-}
-.MCCARD1,
-.MCCARD2,
-.MCCARD3 {
-  background-position: center center;
-}
-.MCSWIPER .swiper-pagination-bullet {
-  outline: none;
-  border: none;
-  height: 2px;
-  width: 100px;
-  background-color: var(--highlight-subheader);
-}
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-size: 18px;
-}
-.swiper-button-next,
-.swiper-button-prev {
-  background-color: var(--highlight-header);
-  color: var(--bg-color-description);
-  border-radius: 50%;
-  width: 3%;
-}
-
-/* END OF MC SECTION */
-
 @media (max-width: 767px) {
   .BG_MAIN {
     background: url("../images/banner/mo-banner-1-mobi.webp") no-repeat;

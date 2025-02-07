@@ -42,6 +42,9 @@ $MCCARDTXT3 = "JOIN NOW";
 
 $MCCONTENTABOUT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum vestibulum interdum. Nunc in augue nisi. Suspendisse potenti. Vestibulum non dictum nisi. Sed et erat finibus, pulvinar neque tincidunt, vestibulum purus. Proin ultrices cursus quam. Suspendisse condimentum vestibulum interdum. Nunc in augue nisi.";
 
+$MCCARDTILE1 = "assets/images/card/02-mc-card-1.webp";
+$MCCARDTILE2 = "assets/images/card/02-mc-card-2.webp";
+$MCCARDTILE3 = "assets/images/card/02-mc-card-3.webp";
 $TILEIMG = "assets/images/tile/02-mc-tile.webp";
 $TILEIMGALT = "TILE IMAGE";
 $MCTILEURL = "#";
