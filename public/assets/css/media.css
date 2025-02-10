@@ -177,6 +177,8 @@
 
   /* WB */
   .WB__WRAPPER-FLEX {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     gap: 16px;
   }
@@ -338,6 +340,7 @@
 
   /* WB SECTION */
   .WB__WRAPPER-FLEX {
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
   .WB__FLEX__ITEM-IMG img:first-child {
