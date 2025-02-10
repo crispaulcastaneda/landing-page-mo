@@ -283,6 +283,9 @@
   }
 
   /* WB SECTION */
+  .WB__WRAPPER::before {
+    background-size: 200% 50%;
+  }
   .WB__FLEX__ITEM-TXT p:nth-child(1),
   .WB__FLEX__ITEM-TXT p:nth-child(3),
   .WB__FLEX__ITEM-TXT p:nth-child(5) {
