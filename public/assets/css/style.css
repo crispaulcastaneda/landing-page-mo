@@ -365,6 +365,7 @@ button {
   overflow: visible;
   position: relative;
   z-index: 2;
+  margin-top: -2px;
 }
 
 .WB__WRAPPER::before {
@@ -435,6 +436,7 @@ button {
 .WB__FLEX__ITEM-TXT p:nth-child(2),
 .WB__FLEX__ITEM-TXT p:nth-child(5) {
   color: var(--highlight-header);
+  font-weight: 700;
 }
 .WB__FLEX__ITEM-LINKS {
   display: -webkit-box;
