@@ -226,6 +226,7 @@
 
   /* MS SECTION */
   .MO__SECRETS-WRAPPER {
+    -webkit-clip-path: unset;
     clip-path: unset;
     background-size: contain;
     background-position: 90px top;
@@ -358,6 +359,7 @@
 
   /* MS SECTION */
   .MO__SECRETS-WRAPPER {
+    -webkit-clip-path: unset;
     clip-path: unset;
     background-image: unset;
     margin-top: -2px;

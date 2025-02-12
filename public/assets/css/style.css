@@ -478,6 +478,7 @@ button {
 .MO__SECRETS-WRAPPER {
   background: url("../images/bg/04-ms-bg.png") no-repeat, var(--primary-coating);
   background-position: top center;
+  -webkit-clip-path: polygon(61% 7%, 100% 0, 100% 100%, 0 100%, 0 11%);
   clip-path: polygon(61% 7%, 100% 0, 100% 100%, 0 100%, 0 11%);
   padding-bottom: 50%;
   margin-top: -190px;
