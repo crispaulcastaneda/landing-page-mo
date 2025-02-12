@@ -6,6 +6,7 @@
   ** BANNER: BS01, BS-UI-01
   ** MC TILE: MCS-02
   ** WB: WB-03
+  ** MS: MS-04
 */
 
 @charset "UTF-8";
@@ -472,3 +473,64 @@ button {
 }
 
 /* END OF WB SECTION WB-03 */
+
+/* START OF WB SECTION MS-04 */
+.MO__SECRETS-WRAPPER {
+  background: url("../images/bg/04-ms-bg.png") no-repeat, var(--primary-coating);
+  background-position: top center;
+  clip-path: polygon(61% 7%, 100% 0, 100% 100%, 0 100%, 0 11%);
+  padding-bottom: 50%;
+  margin-top: -190px;
+  position: relative;
+  z-index: 3;
+}
+.MO__SECRETS-CONTENT {
+  width: 100%;
+  max-width: 744px;
+  padding-top: 205px;
+}
+.MO__SECRETS__CONTENT-LOGO {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.MO__SECRETS__CONTENT-TXTUP p,
+.MO__SECRETS__CONTENT-TXTDOWN p {
+  font-size: 16px;
+  color: var(--highlight-subheader);
+  margin-bottom: 32px;
+}
+.MO__SECRETS__CONTENT-BLOCKQUOTE {
+  font-size: 18px;
+  color: var(--highlight-header);
+  margin-bottom: 32px;
+}
+.MO__SECRETS__CONTENT-BLOCKQUOTE blockquote {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before,
+.MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after {
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+}
+.MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+  content: "";
+  background: url("../images/icons/02-mc-quote-right.svg") no-repeat;
+  -webkit-transform: rotate(3.142rad);
+  -ms-transform: rotate(3.142rad);
+  transform: rotate(3.142rad);
+  left: -70px;
+  top: -40px;
+}
+.MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after {
+  content: "";
+  background: url("../images/icons/02-mc-quote-right.svg") no-repeat;
+  right: -70px;
+  bottom: -40px;
+}
+/* END OF WB SECTION MS-04 */

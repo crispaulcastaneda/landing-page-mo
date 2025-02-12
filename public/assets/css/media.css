@@ -114,6 +114,32 @@
   .WB__FLEX__ITEM-TXT p:nth-child(5) {
     font-size: 2.353vw;
   }
+
+  /* MS SECTION */
+  .MO__SECRETS-CONTENT {
+    max-width: calc(744px - 200px);
+    margin-left: 50px;
+  }
+  .MO__SECRETS__CONTENT-LOGO img {
+    max-width: 17.647vw;
+  }
+  .MO__SECRETS__CONTENT-TXTUP p,
+  .MO__SECRETS__CONTENT-TXTDOWN p {
+    font-size: 1.176vw;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE {
+    font-size: 1.324vw;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after,
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    background-size: 50% 50%;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after {
+    bottom: -70px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    top: -60px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -196,6 +222,41 @@
   .WB__FLEX__ITEM-TXT p:nth-child(2),
   .WB__FLEX__ITEM-TXT p:nth-child(5) {
     font-size: 28px;
+  }
+
+  /* MS SECTION */
+  .MO__SECRETS-WRAPPER {
+    clip-path: unset;
+    background-size: contain;
+    background-position: 90px top;
+    margin-top: unset;
+  }
+  .MO__SECRETS-CONTENT {
+    max-width: 512px;
+    padding-top: 64px;
+    margin-left: 15px;
+  }
+  .MO__SECRETS__CONTENT-LOGO img {
+    max-width: 150px;
+  }
+  .MO__SECRETS__CONTENT-TXTUP p,
+  .MO__SECRETS__CONTENT-TXTDOWN p {
+    font-size: 14px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE {
+    font-size: 16px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after,
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    background-size: 50% 50%;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after {
+    bottom: -70px;
+    right: -10px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    top: -60px;
+    left: -60px;
   }
 }
 
@@ -293,6 +354,42 @@
   }
   .WB__FLEX__ITEM-TXT p:nth-child(4) {
     margin-bottom: 48px;
+  }
+
+  /* MS SECTION */
+  .MO__SECRETS-WRAPPER {
+    clip-path: unset;
+    background-image: unset;
+    margin-top: -2px;
+  }
+  .MO__SECRETS-CONTENT {
+    max-width: 400px;
+    padding-top: 66px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .MO__SECRETS__CONTENT-LOGO img {
+    width: 100%;
+    max-width: 150px;
+  }
+  .MO__SECRETS__CONTENT-TXTUP p,
+  .MO__SECRETS__CONTENT-TXTDOWN p,
+  .MO__SECRETS__CONTENT-BLOCKQUOTE {
+    font-size: 14px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    left: 10px;
+    top: -20px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after {
+    right: 10px;
+    bottom: -20px;
+  }
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:after,
+  .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
   }
 }
 
