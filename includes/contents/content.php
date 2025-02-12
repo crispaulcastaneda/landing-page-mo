@@ -69,3 +69,11 @@ $WBLINKTXT1 = "JOIN NOW";
 $WBSPANLINK1 = "#";
 $WBSPAN1 = "* sunt in culpa qui";
 ?>
+
+<?php
+$MOSECRETSLOGO = "assets/images/icons/04-ms-logo.svg";
+$MOSECRETSLOGOALT = "Maria Secrets Logo";
+$MOSECRETSTXTUP = "Suspendisse scelerisque, urna facilisis accumsan vestibulum, velit sem volutpat diam, a malesuada tellus elit a elit. Sed posuere ipsum leo. Integer rhoncus diam ligula, at molestie augue dictum at. Proin pretium pharetra dui eget aliquam. Phasellus nulla felis, gravida at ex in, fringilla luctus ligula. Nam aliquet augue urna, vel pharetra risus gravida quis. Fusce lacinia arcu at magna dictum pulvinar.";
+$MOSECRETSBLOCK = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum vestibulum interdum. Nunc in augue nisi. Suspendisse potenti. Vestibulum non dictum nisi.";
+$MOSECRETSTXTDOWN = "Suspendisse scelerisque, urna facilisis accumsan vestibulum, velit sem volutpat diam, a malesuada tellus elit a elit. Sed posuere ipsum leo. Integer rhoncus diam ligula, at molestie augue dictum at. Proin pretium pharetra dui eget aliquam. Phasellus nulla felis, gravida at exs. ";
+?>
