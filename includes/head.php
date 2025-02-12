@@ -29,7 +29,11 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Maria's Website is for business and events.">
 
+  <!-- SWIPER CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- GLightbox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
 
   <link rel="shortcut icon" href="../public/assets/images/icons/maria-room-logo.png" type="image/x-icon">
 

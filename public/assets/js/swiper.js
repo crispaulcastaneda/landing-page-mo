@@ -31,6 +31,33 @@ const swiperContainer = () => {
       1024: { slidesPerView: "auto", spaceBetween: 12 },
     },
   });
+
+  let G__LIGHT = new Swiper(".g__lightbox", {
+    slidesPerView: 5,
+    grabCursor: true,
+    freeMode: true,
+    breakpoints: {
+      375: { slidesPerView: 3, spaceBetween: 6 },
+      768: { slidesPerView: 4, spaceBetween: 6 },
+      1024: { slidesPerView: 5, spaceBetween: 6 },
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  // Initialize GLightbox
+  const lightbox = GLightbox({
+    selector: ".glightbox",
+    touchNavigation: true,
+    loop: true,
+    closeButton: true,
+  });
 };
 
 swiperContainer();

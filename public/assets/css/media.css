@@ -236,6 +236,7 @@
     max-width: 512px;
     padding-top: 64px;
     margin-left: 15px;
+    margin-bottom: 56px;
   }
   .MO__SECRETS__CONTENT-LOGO img {
     max-width: 150px;
@@ -270,6 +271,11 @@
   }
   .BG_SECONDARY .BOX_SLIDE_CONTENT img {
     max-width: 200px;
+  }
+  /* MS SECTION */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
   }
 }
 
@@ -367,7 +373,7 @@
   .MO__SECRETS-CONTENT {
     max-width: 400px;
     padding-top: 66px;
-    margin: 0 auto;
+    margin: 0 auto 32px;
     text-align: center;
   }
   .MO__SECRETS__CONTENT-LOGO img {
