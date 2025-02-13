@@ -7,6 +7,7 @@
   ** MC TILE: MCS-02
   ** WB: WB-03
   ** MS: MS-04
+  ** ME: ME-05
 */
 
 @charset "UTF-8";
@@ -598,3 +599,40 @@ button {
 }
 
 /* END OF MS SECTION MS-04 */
+
+/* START OF ME SECTION ME-05 */
+.MO__EXCLUSIVES {
+  position: relative;
+  background: url("../images/bg/02-mc-bg-mask.png") no-repeat, var(--section-bg);
+  clip-path: polygon(63% 5%, 100% 11%, 100% 100%, 0 100%, 0 0);
+  margin-top: -160px;
+  z-index: 6;
+}
+
+.MO__EXCLUSIVES-FLEX {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT img {
+  margin-bottom: 16px;
+}
+.MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT p {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--highlight-header);
+  margin-bottom: 40px;
+}
+.MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT a {
+  max-width: 200px;
+  padding: 9px 59px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  background-color: var(--highlight-header);
+  color: var(--primary-coating);
+  transition: all 0.3s ease-in-out;
+}
+
+/* END OF ME SECTION ME-05 */

@@ -54,6 +54,11 @@
   .WB__FLEX__ITEM-LINKS .WB__BTN:hover {
     background-color: var(--primary-hover);
   }
+
+  /* MO EXCLUSIVE */
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT a:hover {
+    background-color: var(--primary-hover);
+  }
 }
 
 @media (max-width: 1400px) {
@@ -139,6 +144,19 @@
   }
   .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
     top: -60px;
+  }
+  /* MO EXCLUSIVE */
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-IMG img {
+    max-width: 60vw;
+  }
+  .MO__EXCLUSIVES-CONTENT img {
+    max-width: 20.368vw;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT p {
+    font-size: 3.529vw;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT a {
+    font-size: 1.176vw;
   }
 }
 
@@ -259,6 +277,29 @@
   .MO__SECRETS__CONTENT-BLOCKQUOTE blockquote:before {
     top: -60px;
     left: -60px;
+  }
+
+  /* MO EXCLUSIVE */
+  .MO__EXCLUSIVES {
+    clip-path: unset;
+    margin-top: -2px;
+  }
+  .MO__EXCLUSIVES-FLEX {
+    padding-top: 60px;
+    flex-direction: column-reverse;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-IMG img {
+    max-width: 380px;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT img {
+    max-width: 170px;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT p {
+    font-size: 32px;
   }
 }
 
@@ -398,6 +439,20 @@
     background-size: 100% 100%;
     width: 20px;
     height: 20px;
+  }
+
+  /* MO EXCLUSIVE */
+  .MO__EXCLUSIVES {
+    background-repeat: no-repeat;
+    background-size: 700px 200px;
+  }
+
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT p {
+    font-size: 28px;
+  }
+  .MO__EXCLUSIVES-FLEX .MO__EXCLUSIVES-CONTENT a {
+    max-width: 100px;
+    padding: 8px 24px;
   }
 }
 
