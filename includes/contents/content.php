@@ -88,3 +88,13 @@ $GLIGHTBOXIMG4TXT = "GALLERY 4";
 $GLIGHTBOXIMG5 = "assets/images/gallery/04-ms-gal5.jpg";
 $GLIGHTBOXIMG5TXT = "GALLERY 5";
 ?>
+
+<?php
+$IMGEXCLUSIVES = "assets/images/banner/05-mo-calendar-banner.png";
+$IMGEXCLUSIVESALT = "MO EXCLUSIVE BANNER";
+$MOEXCLUSIVELOGO = "assets/images/icons/05-mo-ico.svg";
+$MOEXCLUSIVELOGOTXT = "EXCLUSIVE LOGO";
+$EXCLUSIVESCONTENT = "Lorem ipsum dolor sit amet";
+$EXCLUSIVESURL = "#";
+$EXCLUSIVESURLTXT = "JOIN NOW";
+?>
