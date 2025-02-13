@@ -604,13 +604,18 @@ button {
 .MO__EXCLUSIVES {
   position: relative;
   background: url("../images/bg/02-mc-bg-mask.png") no-repeat, var(--section-bg);
+  -webkit-clip-path: polygon(63% 5%, 100% 11%, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(63% 5%, 100% 11%, 100% 100%, 0 100%, 0 0);
   margin-top: -160px;
   z-index: 6;
 }
 
 .MO__EXCLUSIVES-FLEX {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 90px;
 }
@@ -632,6 +637,8 @@ button {
   font-weight: 700;
   background-color: var(--highlight-header);
   color: var(--primary-coating);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
