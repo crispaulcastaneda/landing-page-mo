@@ -2,7 +2,7 @@
 
 <main>
   <?php
-  $sections = ['banner', 'mc', 'wb', 'secrets', 'exclusive'];
+  $sections = ['banner', 'mc', 'wb', 'secrets', 'exclusive', 'yt'];
 
   foreach ($sections as $section) {
     include_once "../includes/content-$section.php";
