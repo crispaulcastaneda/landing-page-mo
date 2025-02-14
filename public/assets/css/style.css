@@ -682,6 +682,8 @@ button {
 .MO__VID-SLIDE img {
   margin-bottom: 8px;
   width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .MO__VID-SLIDE p {
@@ -689,6 +691,7 @@ button {
   color: var(--highlight-subheader);
   white-space: nowrap;
   overflow: hidden;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   display: block;
 }
