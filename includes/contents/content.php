@@ -98,3 +98,28 @@ $EXCLUSIVESCONTENT = "Lorem ipsum dolor sit amet";
 $EXCLUSIVESURL = "#";
 $EXCLUSIVESURLTXT = "JOIN NOW";
 ?>
+
+<?php
+$MOLOGOYT = "assets/images/icons/06-mo-logo.svg";
+$MOLOGOYTALT = "MO LOGO YT";
+
+$MOYTTHUMB = "assets/images/misc/06-mo-yt-thumbnail.png";
+$MOYTTHUMBALT = "MO YT THUMB";
+
+$MOYTDATAID1 = "5C_HPTJg5ek?rel=0";
+$MOYTTITLE1 = "Rust in 100 seconds";
+$MOYTDATAID2 = "vtB1J_zCv8I?rel=0";
+$MOYTTITLE2 = "Tmux in 100 seconds";
+$MOYTDATAID3 = "x7X9w_GIm1s?rel=0";
+$MOYTTITLE3 = "Python in 100 seconds";
+$MOYTDATAID4 = "aXOChLn5ZdQ?rel=0";
+$MOYTTITLE4 = "JavaScript for the Haters";
+$MOYTDATAID5 = "NKHzcXwTdB4?rel=0";
+$MOYTTITLE5 = "FreeBSD In 100 seconds";
+$MOYTDATAID6 = "pPStdjuYzSI?rel=0";
+$MOYTTITLE6 = "NVidia Cuda in 100 seconds";
+$MOYTDATAID7 = "aXcuz6fn8_w?rel=0";
+$MOYTTITLE7 = "The untold story of web development";
+$MOYTDATAID8 = "ok-plXXHlWw?rel=0";
+$MOYTTITLE8 = "HTML in 100 seconds";
+?>
