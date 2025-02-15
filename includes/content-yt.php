@@ -1,4 +1,4 @@
-<section class="MO__YT">
+<section id="video" class="MO__YT content">
   <div class="MO__INNER">
     <div class="MO__YT-ICO">
       <img src="<?php echo $MOLOGOYT ?>" alt="<?php echo $MOLOGOYTALT ?>">

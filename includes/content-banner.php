@@ -1,4 +1,4 @@
-<section class="BAN_CONTENT">
+<section id="banner" class="BAN_CONTENT content">
   <div class="swiper BAN_SWIPER">
     <div class="swiper-wrapper BAN_SWIPER_WRAPPER">
       <div class="swiper-slide BOX_SLIDE BG_MAIN">

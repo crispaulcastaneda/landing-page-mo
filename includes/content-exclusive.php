@@ -1,4 +1,4 @@
-<section class="MO__EXCLUSIVES">
+<section id="exclusives" class="MO__EXCLUSIVES content">
   <div class="MO__INNER">
     <div class="MO__EXCLUSIVES-FLEX">
       <div class="MO__EXCLUSIVES-IMG">

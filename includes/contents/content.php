@@ -4,6 +4,24 @@ $title = "Project | Maria Ozawa Microsite";
 ?>
 
 <?php
+$MOHEADERLOGO = "assets/images/icons/mo-header.svg";
+$MOHEADERLOGOALT = "HEADER MO LOGO";
+
+$HOME = "HOME";
+$LINKHOME = "#banner";
+$CHOICE = "CHOICE";
+$LINKCHOICE = "#choice";
+$CALENDAR = "CALENDAR";
+$LINKCAL = "#calendar";
+$SECRETS = "SECRETS";
+$LINKSEC = "#secrets";
+$EXCLUSIVE = "EXCLUSIVE";
+$LINKEX = "#exclusives";
+$VIDEOS = "VIDEOS";
+$LINKVID = "#video";
+?>
+
+<?php
 $HEADER1 = "Lorem ipsum dolor sit";
 $HEADER2 = "Excepteur sint occaecat";
 $SUBHEADER = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore";
@@ -122,4 +140,18 @@ $MOYTDATAID7 = "aXcuz6fn8_w?rel=0";
 $MOYTTITLE7 = "The untold story of web development";
 $MOYTDATAID8 = "ok-plXXHlWw?rel=0";
 $MOYTTITLE8 = "HTML in 100 seconds";
+?>
+
+<?php
+$ASIDEIMG = "assets/images/toaster/ms-toaster-banner.png";
+$ASIDEIMGALT = "TOASTER BANNER";
+$TOASTERHEADERTXT = "LOREM IPSUM DOLOR SIT AMET";
+$TOASTERSUBHEADERTXT = "LOREM IPSUM DOLOR";
+?>
+
+<?php
+$FOOTERLOGO = "assets/images/icons/mo-header.svg";
+$FOOTERLOGOALT = "FOOTER LOGO";
+$FOOTERTXT = "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT";
+$FOOTERCOPY = "© 2022 Maria Ozawa. All rights reserved.";
 ?>

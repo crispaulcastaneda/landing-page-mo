@@ -1,4 +1,4 @@
-<section class="MO__SECRETS-WRAPPER">
+<section id="secrets" class="MO__SECRETS-WRAPPER content">
   <div class="MO__INNER">
     <div class="MO__SECRETS-CONTENT">
       <div class="MO__SECRETS__CONTENT-LOGO">
