@@ -1,4 +1,4 @@
-<section class="WB__WRAPPER">
+<section id="calendar" class="WB__WRAPPER content">
   <div class="MO__INNER">
     <div class="WB__WRAPPER-FLEX">
       <div class="WB__FLEX__ITEM-IMG">

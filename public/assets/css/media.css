@@ -349,6 +349,21 @@
 }
 
 @media (max-width: 767px) {
+  header .MO__INNER {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  header .MO__INNER .HEADER__MENU-DESKTOP ul li a {
+    font-size: 10px;
+  }
+  .BAN_CONTENT {
+    padding-top: 110px;
+  }
   .MO__INNER {
     padding: 0 8px;
   }
@@ -400,7 +415,7 @@
     width: 100%;
   }
   .MC__CONTENT-LOGO img {
-    margin-top: 80px;
+    margin-top: 40px;
     max-width: 146px;
   }
   .MCCARD__SLIDE__CONTENT-THUMB {
@@ -495,6 +510,46 @@
   .MO__VID-GALLERY .MO__FEATURED__VIDEO {
     margin-bottom: 24px;
   }
+  /* START OF FOOTER */
+  .MO__FOOTER {
+    padding: 24px 12px 160px;
+  }
+  .MO__FOOTER-CONTENT {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 48px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .MO__FOOTER-CONTENT .MO__FOOTER-LEFT p {
+    font-size: 10px;
+  }
+  .MO__FOOTER-CONTENT .MO__FOOTER-RIGHT p {
+    font-size: 10px;
+  }
+  /* END OF FOOTER */
+
+  /* START OF ASIDE */
+  .MO__TOASTER .MO__ASIDE-CONTENT {
+    min-height: 100px;
+    width: 100%;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__IMG img {
+    width: 80%;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__TXT {
+    margin-left: 330px;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__TXT h2 {
+    font-size: 16px;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__TXT p {
+    font-size: 10px;
+  }
+  /* END OF ASIDE */
 }
 
 @media (max-width: 559px) {
@@ -555,6 +610,17 @@
   }
   .WB__FLEX__ITEM-TXT p:nth-child(4) {
     font-size: 12px;
+  }
+
+  /* ASIDE */
+  .MO__TOASTER .MO__ASIDE-CONTENT {
+    min-height: 90px;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__IMG img {
+    width: 70%;
+  }
+  .MO__TOASTER .MO__ASIDE-CONTENT .ASIDE__TXT {
+    margin-left: 240px;
   }
 }
 

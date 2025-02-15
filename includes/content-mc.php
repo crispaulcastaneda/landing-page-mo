@@ -1,4 +1,4 @@
-<section class="MC__CONTENT">
+<section id="choice" class="MC__CONTENT content">
   <div class="MO__INNER">
     <div class="MC__CONTENT-LOGO">
       <img src="<?php echo $MCLOGO ?>" alt="<?php echo $MCLOGOALT ?>">

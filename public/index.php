@@ -1,5 +1,7 @@
 <?php include_once '../includes/head.php'; ?>
 
+<?php include_once '../includes/content-header.php' ?>
+
 <main>
   <?php
   $sections = ['banner', 'mc', 'wb', 'secrets', 'exclusive', 'yt'];
@@ -10,5 +12,7 @@
   ?>
 
 </main>
-
-<?php include_once '../includes/footer.php'; ?>
+<?php
+include_once '../includes/footer.php';
+include_once '../includes/aside.php';
+?>
