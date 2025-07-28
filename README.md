@@ -35,7 +35,7 @@ This repository is for personal portfolio and educational purposes only. It does
 
 For any inquiries, feel free to reach out:
 
-Email: cristianpaul.castaneda@yahoo.com
+Email: cristianpaul_c@yahoo.com
 
 Website: tba
 
